@@ -7,15 +7,6 @@ vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 vim.keymap.set('n', '<C-k>', ':wincmd k<CR>')
 vim.keymap.set('n', '<C-j>', ':wincmd j<CR>')
 vim.keymap.set('n', '<C-h>', ':wincmd h<CR>')
-vim.keymap.set("n", "<F5>", "@<Plug>NetrwRefresh", { desc = "Refresh Netrw" })
-
-vim.api.nvim_create_autocmd("FileType", {
-  pattern = "netrw",
-  callback = function()
-    vim.keymap.set("n", "<C-l>", ":wincmd l<CR>", { buffer = true })
-  end
-})
-
 vim.keymap.set('n', '<C-l>', ':wincmd l<CR>')
 
 vim.api.nvim_set_keymap("n", "<leader>tf", "<Plug>PlenaryTestFile", { noremap = false, silent = false })

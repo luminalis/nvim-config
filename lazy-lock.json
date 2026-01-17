@@ -10,6 +10,7 @@
   "conform.nvim": { "branch": "master", "commit": "238f542a118984a88124fc915d5b981680418707" },
   "fidget.nvim": { "branch": "main", "commit": "7fa433a83118a70fe24c1ce88d5f0bd3453c0970" },
   "gruvbox": { "branch": "main", "commit": "a472496e1a4465a2dd574389dcf6cdb29af9bf1b" },
+  "hererocks": { "branch": "master", "commit": "3856f1b4fb69a9f683f1eb146a4cd49a67478419" },
   "lazy.nvim": { "branch": "main", "commit": "306a05526ada86a7b30af95c5cc81ffba93fef97" },
   "lualine.nvim": { "branch": "master", "commit": "47f91c416daef12db467145e16bed5bbfe00add8" },
   "markview.nvim": { "branch": "main", "commit": "900272b66043d5e3d3f5a74b34eb4e93d3a0ce88" },
